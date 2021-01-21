@@ -1,0 +1,97 @@
+/*
+<!--Aqui esta el estilo del portafolio2 -->
+*/
+.gallery-title
+{
+	font-size: 36px;
+	color: #42B32F;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 70px;
+}
+.gallery-title:after {
+	content: "";
+	position: absolute;
+	width: 7.5%;
+	left: 46.5%;
+	height: 45px;
+	border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+	font-size: 18px;
+	border: 1px solid #42B32F;
+	border-radius: 5px;
+	text-align: center;
+	color: #42B32F;
+	margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+	font-size: 18px;
+	border: 1px solid #42B32F;
+	border-radius: 5px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+	background-color: #42B32F;
+	color: white;
+}
+
+.port-image
+{
+	width: 100%;
+}
+
+.gallery_product
+{
+	margin-bottom: 30px;
+}
+
+
+/*
+<!--Aqui esta el estilo deourMarketsSection.html -->
+*/
+		.port-image{
+	width: 100%;
+}
+
+.col-md-3{
+	margin-bottom:20px;
+}
+
+.each-item{
+	position:relative;
+	overflow:hidden;
+}
+
+.each-item:hover .cap2, .each-item:hover .cap1{
+	left:0px;
+}
+
+.cap1{
+	position:absolute;
+	width:100%;
+	height:70%;
+	background:rgba(255, 255, 255, 0.5);
+	top:0px;
+	left:-100%;
+	padding:10px;
+	transition: all .5s;
+}
+
+.cap2{
+	position:absolute;
+	width:100%;
+	height:30%;
+	background:rgba(0, 178, 255, 0.5);
+	bottom:0px;
+	left:100%;
+	padding:10px;
+	transition: all .5s;
+}

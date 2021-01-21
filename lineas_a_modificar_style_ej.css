@@ -1,0 +1,205 @@
+/*
+Color a modificar: #50d8af por el del logo de E&J
+style.css
+*/
+
+a {												(style.css: 17)
+  color: #50d8af;
+  transition: 0.5s;
+}
+
+a:hover, a:active, a:focus {						(style.css: 22)
+  color: #51d8af;
+  outline: none;
+  text-decoration: none;
+}
+
+
+.back-to-top {									(style.css: 41)
+  position: fixed;
+  display: none;
+  background: #50d8af;
+  color: #fff;
+  padding: 6px 12px 9px 12px;
+  font-size: 16px;
+  border-radius: 2px;
+  right: 15px;
+  bottom: 15px;
+  transition: background 0.5s;
+}
+
+
+.back-to-top:focus {								(style.css: 60)
+  background: #50d8af;
+  color: #fff;
+  outline: none;
+}
+
+
+#topbar .contact-info a:hover {					(style.css: 86)
+  color: #50d8af;
+}
+	
+#topbar .contact-info i {							(style.css: 90)
+  color: #50d8af;
+  padding: 4px;
+}
+
+#topbar .social-links a:hover {					(style.css: 109)
+  color: #50d8af;
+}
+
+
+#header #logo h1 a span {							(style.css: 144)
+  color: #50d8af;
+}
+
+
+#intro .intro-content h2 span {					(style.css: 200)
+  color: #50d8af;
+  text-decoration: underline;
+}
+
+#intro .intro-content .btn-projects {				(style.css: 234)
+  background: #50d8af;
+  border: 2px solid #50d8af;
+}
+
+
+#intro .intro-content .btn-projects:hover {		(style.css: 239)
+  background: none;
+  color: #50d8af;
+}
+
+.nav-menu li:hover > a, .nav-menu .menu-active > a {	(style.css: 353)
+  color: #50d8af;
+}
+
+
+.nav-menu ul li:hover > a {								(style.css: 381)
+  color: #50d8af;
+}
+
+#mobile-nav ul .menu-has-children i.fa-chevron-up {		(style.css: 468)
+  color: #50d8af;
+}
+
+#mobile-nav ul .menu-item-active {					(style.css: 472)
+  color: #50d8af;
+}
+
+.section-header h2::before {							(style.css: 520)
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #50d8af;
+  bottom: 0;
+  left: 0;
+  
+}
+
+
+#about .content i {									(style.css: 585)
+  font-size: 20px;
+  padding-right: 4px;
+  color: #50d8af;
+}
+
+#clients .owl-dot.active {							(style.css: 705)
+  background-color: #50d8af;
+}
+
+#call-to-action .cta-btn:hover {						(style.css: 886)
+  background: #50d8af;
+  border: 3px solid #50d8af;
+}
+
+
+#team .member .details {								(style.css: 912)
+  background: #50d8af;
+  color: #fff;
+  padding: 15px;
+  border-radius: 0 0 3px 3px;
+}
+
+#contact .contact-info i {							(style.css: 955)
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #50d8af;
+}
+
+
+#contact .contact-info a:hover {						(style.css: 979)
+  color: #50d8af;
+}
+
+#contact .php-email-form input::focus, #contact .php-email-form textarea::focus {
+  background-color: #50d8af;						(style.css: 1064)
+}
+
+
+#contact .php-email-form button[type="submit"] {		(style.css: 1068)
+  background: #50d8af;
+  border: 0;
+  border-radius: 3px;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+
+/*
+Color a modificar: #50d8af por el del logo de E&J
+style3.css
+*/
+
+.gallery-title										(style3.css: 4)
+{
+	font-size: 36px;
+	color: #42B32F;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 70px;
+}
+
+
+.filter-button										(style3.css: 20)
+{
+	font-size: 18px;
+	border: 1px solid #42B32F;
+	border-radius: 5px;
+	text-align: center;
+	color: #42B32F;
+	margin-bottom: 30px;
+
+}
+
+
+.filter-button:hover								(style3.css: 30)
+{
+	font-size: 18px;
+	border: 1px solid #42B32F;
+	border-radius: 5px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #42B32F;
+
+}
+
+
+.btn-default:active .filter-button:active			(style3.css: 40)
+{
+	background-color: #42B32F;
+	color: white;
+}
+
+
+
+
+
+
+

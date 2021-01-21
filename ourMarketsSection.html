@@ -1,0 +1,227 @@
+<html>
+
+	<head>
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	</head>
+
+	<style>
+		.port-image{
+			width: 100%;
+		}
+
+		.col-md-3{
+			margin-bottom:20px;
+		}
+
+		.each-item{
+			position:relative;
+			overflow:hidden;
+		}
+
+		.each-item:hover .cap2, .each-item:hover .cap1{
+			left:0px;
+		}
+
+		.cap1{
+			position:absolute;
+			width:100%;
+			height:70%;
+			background:rgba(255, 255, 255, 0.5);
+			top:0px;
+			left:-100%;
+			padding:10px;
+			transition: all .5s;
+		}
+
+		.cap2{
+			position:absolute;
+			width:100%;
+			height:30%;
+			background:rgba(0, 178, 255, 0.5);
+			bottom:0px;
+			left:100%;
+			padding:10px;
+			transition: all .5s;
+		}
+
+		.btn-primary{
+			background-color: #2ae268;
+		}
+
+		.btn-default {
+			color: #333;
+			background-color: #2ae268;
+			border-color: #ccc;
+		}
+		
+	</style>
+
+	<body>
+		<section id="markets">
+		
+			<div class="container">
+				<div class="section-header">
+				  <h2><?php echo $lang["section_markets_title"]?></h2>
+				
+				</div>
+				
+				<div class="col-md-12 text-center">
+					<button class="btn btn-primary filter-button" data-filter="all">All</button>
+					<button class="btn btn-default filter-button" data-filter="photo">Upstream</button>
+					<button class="btn btn-default filter-button" data-filter="graphic">Petrochemical</button>
+					<button class="btn btn-default filter-button" data-filter="webdesign">General Industry</button>
+				</div>
+				<br/>
+				
+				<div class="row">
+					<div class="col-md-3 filter photo">
+						<div class="each-item">
+							<img class="port-image" src="assets/img/portfolio/upstream1.jpg">
+							<div class="cap1">
+								<h3>Car show</h3>
+								<p>A car showroom for all verities of cars to display</p>
+							</div>
+							<div class="cap2">
+								<p class="text-center">Visit</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-3 filter webdesign">
+						<div class="each-item">
+							<img class="port-image" src="assets/img/portfolio/g_industry3.jpg"/>
+							<div class="cap1">
+								<h3>Car show</h3>
+								<p>A car showroom for all verities of cars to display</p>
+							</div>
+							<div class="cap2">
+								<p class="text-center">Visit</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-3 filter photo">
+						<div class="each-item">
+							<img class="port-image" src="assets/img/portfolio/upstream2.jpg"/>
+							<div class="cap1">
+								<h3>Car show</h3>
+								<p>A car showroom for all verities of cars to display</p>
+							</div>
+							<div class="cap2">
+								<p class="text-center">Visit</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-3 filter photo">
+						<div class="each-item">
+							<img class="port-image" src="assets/img/portfolio/upstream3.jpg"/>
+							<div class="cap1">
+								<h3>Car show</h3>
+								<p>A car showroom for all verities of cars to display</p>
+							</div>
+							<div class="cap2">
+								<p class="text-center">Visit</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-3 filter webdesign">
+						<div class="each-item">
+							<img class="port-image" src="assets/img/portfolio/g_industry1.jpg"/>
+							<div class="cap1">
+								<h3>Car show</h3>
+								<p>A car showroom for all verities of cars to display</p>
+							</div>
+							<div class="cap2">
+								<p class="text-center">Visit</p>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="col-md-3 filter graphic">
+						<div class="each-item">
+							<img class="port-image" src="assets/img/portfolio/refinery1.jpg"/>
+							<div class="cap1">
+								<h3>Car show</h3>
+								<p>A car showroom for all verities of cars to display</p>
+							</div>
+							<div class="cap2">
+								<p class="text-center">Visit</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-3 filter graphic">
+						<div class="each-item">
+							<img class="port-image" src="assets/img/portfolio/refinery2.jpg"/>
+							<div class="cap1">
+								<h3>Car show</h3>
+								<p>A car showroom for all verities of cars to display</p>
+							</div>
+							<div class="cap2">
+								<p class="text-center">Visit</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-3 filter graphic">
+						<div class="each-item">
+							<img class="port-image" src="assets/img/portfolio/refinery3.jpg"/>
+							<div class="cap1">
+								<h3>Car show</h3>
+								<p>A car showroom for all verities of cars to display</p>
+							</div>
+							<div class="cap2">
+								<p class="text-center">Visit</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-3 filter webdesign">
+						<div class="each-item">
+							<img class="port-image" src="assets/img/portfolio/g_industry2.jpg"/>
+							<div class="cap1">
+								<h3>Car show</h3>
+								<p>A car showroom for all verities of cars to display</p>
+							</div>
+							<div class="cap2">
+								<p class="text-center">Visit</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+	
+	</body>
+
+	<script>
+		$(document).ready(function(){
+
+			$(".filter-button").click(function(){
+				var value = $(this).attr('data-filter');
+				
+				if(value == "all")
+				{
+					//$('.filter').removeClass('hidden');
+					$('.filter').show('1000');
+				}
+				else
+				{
+		//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+		//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+					$(".filter").not('.'+value).hide('3000');
+					$('.filter').filter('.'+value).show('3000');
+					
+				}
+			});
+
+		});
+	</script>
+
+</html>
